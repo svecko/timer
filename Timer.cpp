@@ -1,5 +1,7 @@
 #include "Timer.h"
 
+#include <iostream>
+
 Timer::Timer(const char* name)
 	: m_Name(name), m_Stopped(false)
 {
